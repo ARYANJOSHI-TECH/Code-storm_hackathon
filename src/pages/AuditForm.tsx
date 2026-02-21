@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Card, Button } from '../components/UI';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ChevronLeft, Save, Activity, Brain, Shield, Briefcase, Users, Zap, Compass } from 'lucide-react';
 import { API_BASE_URL } from '../config';
 const SECTIONS = [
