@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Button } from '../components/UI';
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { 
   Trophy, TrendingUp, AlertTriangle, CheckCircle2, 
   ChevronDown, ChevronUp, History, Flame, Star,
