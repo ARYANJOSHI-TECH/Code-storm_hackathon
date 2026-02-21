@@ -1,7 +1,7 @@
 from flask import Flask, request, jsonify, send_from_directory
 from flask_cors import CORS
 import os
-from config import get_openai_client, get_supabase_client, SYSTEM_PROMPT
+from .config import get_openai_client, get_supabase_client, SYSTEM_PROMPT
 import json
 
 app = Flask(__name__, static_folder='dist', static_url_path='/')
