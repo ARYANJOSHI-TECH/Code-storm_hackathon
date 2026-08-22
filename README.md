@@ -1,20 +1,7 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+AI Life Audit is an AI-powered personal optimization platform designed to analyze an individual’s life as an interconnected system rather than as isolated problems.
 
-# Run and deploy your AI Studio app
+The platform collects structured, multi-domain input from users across key life dimensions, including health, career, productivity, mindset, finances, habits, and relationships and applies large language model (LLM) analysis to generate a comprehensive system-level diagnosis.
 
-This contains everything you need to run your app locally.
+Unlike generic AI chat tools or standalone productivity applications, AI Life Audit translates analysis into structured execution frameworks, including prioritized action hierarchies, measurable KPIs, and automatically generated tracking systems.
 
-View your app in AI Studio: https://ai.studio/apps/f5f3e757-6205-492c-97dc-0a14893f85ce
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+The objective is to move users from abstract self-improvement insights to structured, system-driven execution.
